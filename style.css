@@ -1,0 +1,44 @@
+body {
+    /*h1 p*/
+    font-family:'Noto Sans',sans-serif ;
+    background-color: rgb(2, 2, 6);
+    color: rgb(239, 225, 225);
+}
+main{
+    width: 30vw;
+    margin:0 auto;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img{
+    width: 90%;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        grid-gap:10px ;
+}
+
+.card{
+    padding: 10px;
+    border: 2px solid rgb(233, 227, 227);
+    border-radius: 1px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card ul li {
+    margin-bottom: 6px;
+}
